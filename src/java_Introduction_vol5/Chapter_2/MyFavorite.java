@@ -6,11 +6,13 @@ public class MyFavorite {
 		String place;
 		String hobby;
 		String color;
+		String animal;
 
 		food = "Ramen";
 		place = "Art museum and the sea";
 		hobby = "Coding";
 		color = "Black";
+		animal = "giraffe";
 
 		System.out.println("""
 				=====
@@ -21,6 +23,7 @@ public class MyFavorite {
 				Place : %s
 				Hobby : %s
 				Color : %s
-				""".formatted(food, place, hobby, color));
+				Animal : %s
+				""".formatted(food, place, hobby, color, animal));
 	}
 }
